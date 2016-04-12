@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    Document   : main
+    Created on : Mar 1, 2016, 8:20:36 PM
+    Author     : oogunjimi
+-->
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0"
+          xmlns:c="http://java.sun.com/jsp/jstl/core"
+          xmlns:fn="http://java.sun.com/jsp/jstl/functions"
+          xmlns:fmt="http://java.sun.com/jsp/jstl/fmt"
+          xmlns:tag="urn:jsptagdir:/WEB-INF/tags/">
+
+    <jsp:directive.page contentType="text/html" pageEncoding="UTF-8"/>
+
+
+    <tag:template title="NACS Report">
+
+        <jsp:attribute name="header">
+            <tag:header/>
+        </jsp:attribute>
+
+        <jsp:attribute name="footer">
+            <tag:footer/>
+        </jsp:attribute>
+
+        <jsp:attribute name="navbar">
+            <tag:navbar/>
+        </jsp:attribute>
+        
+         <jsp:attribute name="sidebar">
+            <tag:sidebar/>
+        </jsp:attribute>
+
+        
+    </tag:template>
+
+</jsp:root>

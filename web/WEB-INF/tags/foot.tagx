@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    Document   : foot
+    Created on : Mar 1, 2016, 8:18:52 PM
+    Author     : oogunjimi
+-->
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+
+    <jsp:directive.tag pageEncoding="UTF-8"/> 
+
+    <!-- The list of normal or fragment attributes can be specified here, e.g.: -->
+    <script src="${pageContext.request.contextPath}/resources/plugins/json/json2.min.js" type="text/javascript"><!-- --></script>
+            <script src="${pageContext.request.contextPath}/resources/plugins/bootbox-4.3.0/bootbox.min.js" type="text/javascript"><!-- --></script>
+            <script src="${pageContext.request.contextPath}/resources/plugins/blockUI/jquery.blockUI.js" type="text/javascript"><!-- --></script>
+            <script src="${pageContext.request.contextPath}/resources/plugins/notify/bootstrap-notify.min.js" type="text/javascript"><!-- --></script>
+            <script src="${pageContext.request.contextPath}/resources/plugins/qtip/jquery.qtip.min.js" type="text/javascript"><!-- --></script>
+           
+            <script src="${pageContext.request.contextPath}/resources/plugins/moment/moment.min.js" type="text/javascript"><!-- --></script>
+            <script src="${pageContext.request.contextPath}/resources/plugins/numeral/numeral.min.js" type="text/javascript"><!-- --></script>
+
+            <script src="${pageContext.request.contextPath}/resources/plugins/fileDownload/jquery.fileDownload.min.js" type="text/javascript"><!-- --></script>
+            <script src="${pageContext.request.contextPath}/resources/plugins/icheck/icheck.min.js" type="text/javascript"><!-- --></script>
+            <script src="${pageContext.request.contextPath}/resources/plugins/jsTree/jstree.min.js" type="text/javascript"><!-- --></script>
+            <!-- polyfills -->
+            <script src="${pageContext.request.contextPath}/resources/plugins/polyfills/EventSource.js" type="text/javascript"><!-- --></script>
+            <!-- atmosphere -->
+            <script src="${pageContext.request.contextPath}/resources/plugins/atmosphere/jquery.atmosphere-min.js" type="text/javascript"><!-- --></script>
+
+
+</jsp:root>
